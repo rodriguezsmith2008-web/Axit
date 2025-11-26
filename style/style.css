@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/images/banner-bk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 4% 10% 0%;
+}
+
+nav h4 {
+    color: rgb(222, 222, 222);
+    font-weight: 300;
+    font-size: 80%;
+}
+
+.logo {
+    width: 40%;
+}
+
+header .text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 5% 10%;
+}
+
+header .text h1 {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 4%;
+}
+
+header .text p {
+    width: 55%;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+header .text button {
+    background-color: aqua;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article .info {
+    text-align: center;
+    align-items: center;
+    padding: 6% 3%;
+}
+
+article .info h2 {
+    color: rgb(43, 43, 43);
+    font-size: 7vh;
+    margin-bottom: 4%;
+}
+
+article .info .projects {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.project {
+    width: 25%;
+}
+
+.project h3 {
+    color: rgb(51, 51, 51);
+}
+
+.project p {
+    color: rgb(162, 162, 162);
+    margin-top: 4%;
+    font-size: 80%;
+}
+
+.colorA {
+    position: relative;
+    padding: 120px 0;
+    background: white;
+    overflow: hidden;
+}
+
+.colorA::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: aqua;
+    transform: skewY(-20deg);
+    transform-origin: top right;
+    z-index: 1;
+}
+
+
+.colorA>* {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+article .color img {
+    position: absolute;
+}
+
+
+
+article .compu {
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article .compu p {
+    font-size: 80%;
+    color: rgb(134, 134, 134);
+    width: 90%;
+}
+
+article .compu img {
+    width: 95%;
+}
+
+article .compu .info {
+    text-align: justify;
+    width: 50%;
+    margin-right: 6%;
+}
+
+
+
+
+
+article .tablet{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+article .tablet p {
+    font-size: 80%;
+    color: rgb(134, 134, 134);
+    width: 90%;
+}
+
+article .tablet img {
+    width: 85%;
+}
+
+article .tablet .info {
+    text-align: justify;
+    width: 50%;
+    margin-right: 6%;
+}
+
+
