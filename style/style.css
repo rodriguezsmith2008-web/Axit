@@ -40,7 +40,7 @@ header .text {
 
 header .text h1 {
     color: white;
-    font-size: 70px;
+    font-size: 320%;
     margin-bottom: 4%;
 }
 
@@ -52,9 +52,12 @@ header .text p {
 }
 
 header .text button {
-    background-color: aqua;
+    background-color: #00FFC4;
     border-radius: 50px;
     padding: 10px 30px;
+    font-size: 70%;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
 }
 
 main {
@@ -89,14 +92,14 @@ article .info .projects {
 }
 
 .project p {
-    color: rgb(162, 162, 162);
+    color: rgb(96, 95, 95);
     margin-top: 4%;
     font-size: 80%;
 }
 
 .colorA {
     position: relative;
-    padding: 120px 0;
+    padding: 100px 0px 0px 50px;
     background: white;
     overflow: hidden;
 }
@@ -107,9 +110,9 @@ article .info .projects {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 100%;
-    background: aqua;
-    transform: skewY(-20deg);
+    height: 85%;
+    background: #00FFC4;
+    transform: skewY(-15deg);
     transform-origin: top right;
     z-index: 1;
 }
@@ -122,61 +125,729 @@ article .info .projects {
 
 
 
-article .color img {
-    position: absolute;
-}
-
-
-
 article .compu {
     margin: 0%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 10%;
 }
 
-article .compu p {
+
+
+.compu p {
     font-size: 80%;
-    color: rgb(134, 134, 134);
-    width: 90%;
+    color: rgb(80, 80, 80);
+    width: 100%;
+
+
+}
+
+.compu button {
+    background-color: #192440;
+    margin-top: 3%;
+    padding: 10px 15px;
+    border-radius: 80px;
+    font-weight: bold;
+    color: white;
+    font-size: 70%;
 }
 
 article .compu img {
-    width: 95%;
+    width: 110%;
+
 }
 
 article .compu .info {
     text-align: justify;
-    width: 50%;
-    margin-right: 6%;
+
 }
 
-
-
-
-
-article .tablet{
-    
+article .tablet {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-   
+    margin-top: 9%;
+    justify-content: center;
+
+
 }
 
 article .tablet p {
-    font-size: 80%;
-    color: rgb(134, 134, 134);
-    width: 90%;
+    font-size: 75%;
+    color: rgb(80, 80, 80);
+    width: 80%;
 }
 
 article .tablet img {
-    width: 85%;
+    width: 80%;
+
 }
 
 article .tablet .info {
     text-align: justify;
-    width: 50%;
-    margin-right: 6%;
+    width: 45%;
+
+
+}
+
+.tablet button {
+    background-color: #003040;
+    font-weight: bold;
+    margin-top: 7%;
+    padding: 10px 15px;
+    border-radius: 80px;
+    color: white;
+    font-size: 70%;
+}
+
+.p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 9%;
+
+}
+
+.p h2 {
+    font-size: 250%;
+}
+
+.planes {
+    width: 100%;
+    margin: 5% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.plan {
+
+    padding: 3% 5%;
+    min-height: 300px;
+}
+
+.plan h3 {
+    margin: 0% 0% 10%;
+    font-size: 85%;
+}
+
+.plan .Grande {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.plan .Chiquito {
+    font-size: 60%;
+}
+
+.plan .normal {
+    margin-bottom: 15%;
+}
+
+.plan p {
+    font-size: 80%;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.plan button {
+    margin-top: 40%;
+    padding: 7% 15%;
+    border: solid #192440;
+    border-radius: 80px;
+    font-size: 70%;
+}
+
+.plancolor {
+
+    padding: 3% 8%;
+    background-color: #192440;
+}
+
+.plancolor .title {
+    margin: 0% 0% 10%;
+    font-size: 100%;
+    color: white;
+}
+
+.plancolor .Grande {
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+}
+
+.plancolor .Chiquito {
+    font-size: 60%;
+    color: white;
+}
+
+.plancolor .valor {
+    margin-bottom: 15%;
+}
+
+.plancolor p {
+    font-size: 80%;
+    margin-top: 15%;
+    width: 100%;
+    color: white;
+}
+
+.plancolor button {
+    margin-top: 30%;
+    padding: 7% 15%;
+    background-color: #00FFC4;
+    border: none;
+    border-radius: 80px;
+    font-size: 70%;
+}
+
+.companis {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 5%;
+    background-color: rgb(232, 232, 232);
+}
+
+aside {
+    background-image: url(../assets/images/contact-bk.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10%;
+
+}
+
+aside .info {
+
+    color: white;
+}
+
+aside .info h2 {
+    margin-bottom: 3%;
+    font-size: 200%;
+}
+
+aside .info p {
+    font-size: 70%;
+    width: 75%;
+    flex-wrap: wrap;
+    margin-top: 3%;
 }
 
 
+.Formulario {
+    width: 100%;
+    max-width: 600px;
+}
+
+.Form {
+    color: #00ffc8;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.field {
+    flex-shrink: 1;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.field.full {
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #00ffc8;
+}
+
+input,
+textarea {
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #00ffc8;
+    border-radius: 6px;
+    background: transparent;
+    color: #00ffc8;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.submit-btn {
+    width: 100%;
+    padding: 18px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #003040;
+    background: linear-gradient(90deg, #00ffc8, #00ffbd);
+}
+
+
+
+footer {
+    justify-content: space-between;
+    background-color: #192440;
+    display: flex;
+    padding: 3%;
+    align-items: center;
+
+
+}
+
+footer .info h5 {
+    color: white;
+    font-size: 60%;
+}
+
+.imgs {
+    display: flex;
+    gap: 20px;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+
+}
+
+@media (max-width:1279px) {
+    .Formulario {
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .planes {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .plan,
+    .plancolor {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 450px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .plan button,
+    .plancolor button {
+        margin-top: auto;
+        padding: 15px 20px;
+        border-radius: 40px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+}
+
+@media(max-width:921px) {
+
+
+    header .text h1 {
+        font-size: 200%;
+    }
+
+    header .text p {
+        font-size: 16px;
+    }
+
+    .compu {
+        justify-content: center;
+    }
+
+    .compu p {
+        font-size: 70%;
+        color: rgb(80, 80, 80);
+        width: 90%;
+
+    }
+
+    article .compu h2 {
+        font-size: 130%;
+    }
+
+    article .compu button {
+        font-size: 50%;
+    }
+
+    article .compu .info {
+        text-align: justify;
+        width: 100%;
+    }
+
+
+    .tablet {
+        justify-content: center;
+    }
+
+    .tablet p {
+        font-size: 70%;
+        color: rgb(80, 80, 80);
+
+
+    }
+
+    article .tablet .info {
+        text-align: justify;
+        width: 75%;
+    }
+
+    article .tablet h2 {
+        font-size: 130%;
+    }
+
+    article .tablet button {
+        font-size: 50%;
+    }
+
+
+    .companis img {
+        width: 70px;
+    }
+
+
+    .colorA {
+        position: relative;
+        padding: 60px 0px 0px 30px;
+        background: white;
+        overflow: hidden;
+    }
+
+
+    aside .info h2 {
+        font-size: 160%
+    }
+
+    aside .info p {
+        font-size: 60%;
+        width: 65%;
+        flex-wrap: wrap;
+        margin-top: 3%;
+    }
+
+    aside .info {
+        max-width: 55%;
+    }
+
+    .plan,
+    .plancolor {
+        margin-top: auto;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width:769px) {
+
+    .logo {
+        width: 30%;
+    }
+
+    nav h4 {
+        font-size: 70%;
+    }
+
+    header .text h1 {
+        font-size: 130%;
+    }
+
+    header .text p {
+        font-size: 12px;
+    }
+
+    header .text button {
+        padding: 5px 15px;
+        font-size: 50%;
+    }
+
+    article .info h2 {
+
+        font-size: 4vh;
+        margin-bottom: 4%;
+
+    }
+
+    article .info .projects {
+        align-items: center;
+        flex-direction: column
+    }
+
+    .project {
+        width: 70%;
+    }
+
+    .project img {
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    .project h3 {
+        font-size: 110%;
+    }
+
+    .project p {
+        color: rgb(96, 95, 95);
+        margin-top: 4%;
+        font-size: 70%;
+    }
+
+    .colorA {
+        align-items: center;
+        justify-content: center;
+    }
+
+    article .compu {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article .compu img {
+        width: 90%;
+    }
+
+    article .tablet {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article .tablet img {
+        width: 70%;
+    }
+
+    .p h2 {
+        font-size: 130%;
+    }
+
+    .plan {
+        justify-content: space-between;
+    }
+
+    .plan h3 {
+        font-size: 65%;
+    }
+
+    .plan .Grande {
+        font-size: 200%;
+        font-weight: bold;
+    }
+
+    .plan p {
+        font-size: 40%;
+        margin-top: 20%;
+        max-width: 100%;
+    }
+
+    .plan button {
+        padding: 3% 7%;
+        font-size: 50%;
+    }
+
+    .plancolor {
+        padding: 2% 5%;
+        background-color: #192440;
+
+        justify-content: space-between;
+    }
+
+    .plancolor .title {
+        margin: 0% 0% 10%;
+        font-size: 70%;
+
+    }
+
+    .plancolor .Grande {
+        font-size: 200%;
+
+    }
+
+    .plancolor p {
+        font-size: 40%;
+        margin-top: 15%;
+        width: 100%;
+        color: white;
+    }
+
+    .plancolor button {
+        padding: 3% 7%;
+        font-size: 50%;
+    }
+
+    .plan,
+    .plancolor {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 350px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .companis img {
+        width: 50px;
+    }
+
+    aside {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    aside .info {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 9%;
+    }
+
+    aside .info p {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    footer .info h5 {
+        color: white;
+        font-size: 40%;
+    }
+
+    footer img {
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        border-radius: 50%;
+        padding: 6px;
+    }
+
+    @media(max-width:481px) {
+
+        .logo {
+            width: 20%;
+        }
+
+        nav h4 {
+            font-size: 30%;
+        }
+
+        header .text h1 {
+            font-size: 90%;
+        }
+
+        header .text p {
+            font-size: 9px;
+        }
+
+        header .text button {
+            padding: 2px 9px;
+            font-size: 30%;
+        }
+
+        h1 {
+            font-size: 90%;
+        }
+
+        article .info h2 {
+            font-size: 3vh;
+            margin-bottom: 4%;
+        }
+
+        .project h3 {
+            font-size: 80%;
+        }
+
+        .project p {
+            font-size: 50%;
+        }
+
+        .compu p {
+            font-size: 50%;
+
+        }
+
+        article .compu button {
+            font-size: 30%;
+        }
+
+        article .tablet p {
+            font-size: 50%;
+
+        }
+
+        article .tablet button {
+            font-size: 30%;
+        }
+
+        .p h2 {
+            font-size: 80%;
+        }
+
+        .companis img {
+            width: 30px;
+        }
+
+        aside .info h2 {
+            font-size: 100%;
+        }
+
+        aside .info p {
+            font-size: 50%;
+        }
+
+        .submit-btn {
+            padding: 3px 7px;
+        }
+
+        .Formulario {
+            width: 100%;
+            min-width: 250px;
+        }
+
+        aside .info {
+            max-width: 85%;
+        }
+
+        footer{
+            font-size: 25%;
+        }
+
+        footer img{
+             width: 20px;
+             height: 20px;
+             padding: 1.5px;
+        }
+
+        .imgs{
+            gap: 8px;
+        }
+    }
+}

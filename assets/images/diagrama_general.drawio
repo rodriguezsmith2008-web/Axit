@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="general" name="Diagrama General">
+    <mxGraphModel dx="1034" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Actors -->
+        <mxCell id="admin" value="Actor: Administrador" style="shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="60" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="instructor" value="Actor: Instructor" style="shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="60" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="student" value="Actor: Estudiante" style="shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="60" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="externo" value="Actor Externo" style="shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="60" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Use Cases -->
+        <mxCell id="uc_login" value="Iniciar Sesión" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc_users" value="Gestionar Usuarios" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc_projects" value="Gestionar Proyectos" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc_docs" value="Gestionar Documentos" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc_kanban" value="Gestión de Tableros y Tareas" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc_ext" value="Visor Externo del Proyecto" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
